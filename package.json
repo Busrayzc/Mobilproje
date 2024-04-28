@@ -1,5 +1,5 @@
 {
-  "name": "myfirstproject",
+  "name": "ayakkabi_satis_projesi",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-firebase/app": "^19.1.2",
+    "@react-native-firebase/auth": "^19.1.2",
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
+    "firebase": "^10.10.0",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-modal-dropdown": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
